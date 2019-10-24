@@ -1,0 +1,278 @@
+
+
+html{
+margin:0;
+padding:0;
+height:100%
+}
+
+    footer {
+  background-color: #1a1a1a;
+      padding: 25px;
+      bottom: 0px;
+      width: 100%;
+      height: 70px;
+      color:white;
+    }
+ body{
+  margin:0;
+  padding:0;
+  height:100%;
+  background-image: url("../images/newbackground.jpg");
+ background-size: 100vw 100vh;
+  background-attachment: fixed;
+ }
+
+h2, h1, h3, h4{
+  color: white;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+}
+
+  .body{
+    padding-right: 0px !important;
+        }
+
+  .modal-open {
+    padding:0 !important;
+     overflow-y: auto;
+        }
+
+
+.title {
+  font-family: helvetica;
+  font-size: 30px;
+ color: white;
+}
+
+
+.card:hover .card-img-top{
+filter: brightness(70%);
+ }
+
+
+
+ .card img{
+   height: 200px;
+   width: auto;
+
+  cursor: pointer;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  max-width: 100%;
+ }
+
+img.details{
+  width:auto;
+  margin: 30px auto;
+  height: 210px;
+  border-radius: 10px;
+}
+
+.modal .btn-default:hover {
+  background-color: #e60000;
+  color: white;
+}
+
+.card-heading{
+  font-size: 20px;
+  text-align: center;
+  }
+
+.open .dropdown-menu {
+      background-color: #222;
+    }
+
+.open .dropdown-menu a{
+      color: white;
+        }
+
+.table{
+  margin: 0 auto;
+   border: 1px solid black;
+}
+
+.card-header{
+  background-color: #d6f5d6;
+}
+.table th{
+  background-color:  #d6f5d6;
+      border: none;
+      font-family: helvetica;
+}
+
+
+.saved-image img{
+  width: 300px;
+  height: auto;
+}
+
+#login-form{
+  width: 100%;
+  height: auto;
+  border: 3px solid black;
+  border-radius: 15px;
+  box-shadow: 7px 7px 15px rgba(0,0,0,0.6);
+  margin: 8% auto;
+  padding: 15px;
+  background-color: #fff;
+}
+
+#add-product-btn{
+  margin-top: -35px;
+  margin-right: 15px;
+}
+
+.cartemp{
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #b30000;
+  border-width: 3px;
+  box-shadow: 7px 7px 15px rgba(0,0,0,0.6);
+}
+textarea {
+  resize: none;
+}
+
+
+.padprice{
+  padding: 10px;
+}
+
+#myCarousel .item{
+  height: 400px;
+}
+
+#slide1{
+ background: url('../images/meat.jpg') center no-repeat;
+ background-size: 100%;
+}
+#slide2{
+ background: url('../images/fruits.jpg') center no-repeat;
+  background-size: 100%;
+}
+#slide3{
+ background: url('../images/sea.jpg') center no-repeat;
+  background-size: 100%;
+}
+
+.palengke{
+   font-size: 70px;
+  padding-top: -10px;
+   font-family: cursive;
+}
+
+@media only screen and (max-width:767px){
+  #slide1{
+   background: url('../images/meat.jpg') center no-repeat;
+   background-size: 100%  %;
+  }
+  #slide2{
+   background: url('../images/fruits.jpg') center no-repeat;
+   background-size: 100% 100%;
+  }
+  #slide3{
+   background: url('../images/sea.jpg') center no-repeat;
+   background-size: 100% 100%;
+  }
+  .palengke{
+    padding-top: 30px;
+    font-size: 60px;
+  }
+}
+
+
+img. # {
+  z-index: 100;
+  position: absolute;
+  color: red;
+  font-size: 24px;
+  font-weight: bold;
+  left: 120px;
+  top: 70px;
+}
+
+#img_container {
+    position:relative;
+    display:inline-block;
+    text-align:center;
+}
+
+#text {
+  color: red;
+  font-size: 40px;
+  position: absolute;
+  top: 40%;
+  left: 16%;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+#sidebar-wrapper {
+  min-height: 100vh;
+  margin-left: -13rem;
+  -webkit-transition: margin .25s ease-out;
+  -moz-transition: margin .25s ease-out;
+  -o-transition: margin .25s ease-out;
+  transition: margin .25s ease-out;
+}
+
+#sidebar-wrapper .sidebar-heading {
+  padding: 0.875rem 1.25rem;
+  font-size: 1.2rem;
+}
+
+#sidebar-wrapper .list-group {
+  width: 13rem;
+}
+
+#page-content-wrapper {
+  min-width: 90vw;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  margin-left: 0;
+}
+
+@media (min-width: 768px) {
+  #sidebar-wrapper {
+    margin-left: 0;
+  }
+
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: -13rem;
+  }
+}
+
+.menubar{
+ width: 35px;
+ height: 5px;
+ background-color: white;
+ margin: 6px 0;
+}
+
+.profile{
+  height: 40px;
+  width: 40px
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+
+.caro{
+ filter: brightness(50%);
+}
+
+.cardname{
+  font-size: 25px;
+}

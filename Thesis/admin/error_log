@@ -1,0 +1,22 @@
+[20-Feb-2019 21:51:54 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home3/hostslave/public_html/Thesis/admin/orders.php on line 18
+[20-Feb-2019 21:51:54 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home3/hostslave/public_html/Thesis/admin/orders.php on line 30
+[20-Feb-2019 21:51:54 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home3/hostslave/public_html/Thesis/admin/orders.php on line 66
+[25-Feb-2019 06:43:43 America/Chicago] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'hostslav_larypa'@'localhost' to database 'larypa_thesisdatabase' in /home3/hostslave/public_html/Thesis/system/initialize.php on line 2
+[27-Feb-2019 17:18:18 Asia/Manila] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/hostslave/public_html/Thesis/system/initialize.php:3) in /home3/hostslave/public_html/Thesis/system/initialize.php on line 11
+[27-Feb-2019 17:19:16 Asia/Manila] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/hostslave/public_html/Thesis/system/initialize.php:3) in /home3/hostslave/public_html/Thesis/system/initialize.php on line 11
+[27-Feb-2019 17:19:24 Asia/Manila] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/hostslave/public_html/Thesis/system/initialize.php:3) in /home3/hostslave/public_html/Thesis/system/initialize.php on line 11
+[27-Feb-2019 17:19:26 Asia/Manila] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/hostslave/public_html/Thesis/system/initialize.php:3) in /home3/hostslave/public_html/Thesis/system/initialize.php on line 11
+[27-Feb-2019 17:19:28 Asia/Manila] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/hostslave/public_html/Thesis/system/initialize.php:3) in /home3/hostslave/public_html/Thesis/system/initialize.php on line 11
+[27-Feb-2019 17:21:12 Asia/Manila] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/hostslave/public_html/Thesis/system/initialize.php:3) in /home3/hostslave/public_html/Thesis/system/initialize.php on line 11
+[11-Mar-2019 13:48:21 Asia/Manila] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home3/hostslave/public_html/Thesis/admin/orders.php on line 40
+[11-Mar-2019 13:48:21 Asia/Manila] PHP Warning:  Invalid argument supplied for foreach() in /home3/hostslave/public_html/Thesis/admin/orders.php on line 85
+[25-Mar-2019 04:04:55 Asia/Manila] PHP Fatal error:  Uncaught exception 'Nexmo\Client\Exception\Request' with message 'Non White-listed Destination - rejected' in /home3/hostslave/public_html/Thesis/vendor/nexmo/client/src/Message/Client.php:75
+Stack trace:
+#0 /home3/hostslave/public_html/Thesis/admin/orders.php(63): Nexmo\Message\Client->send(Array)
+#1 {main}
+  thrown in /home3/hostslave/public_html/Thesis/vendor/nexmo/client/src/Message/Client.php on line 75
+[25-Mar-2019 04:20:45 Asia/Manila] PHP Fatal error:  Uncaught exception 'Nexmo\Client\Exception\Request' with message 'Non White-listed Destination - rejected' in /home3/hostslave/public_html/Thesis/vendor/nexmo/client/src/Message/Client.php:75
+Stack trace:
+#0 /home3/hostslave/public_html/Thesis/admin/orders.php(63): Nexmo\Message\Client->send(Array)
+#1 {main}
+  thrown in /home3/hostslave/public_html/Thesis/vendor/nexmo/client/src/Message/Client.php on line 75
